@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon"/>
+  </head>
+
+  <body>
+    <div class="container">
+      
+      <a class="links" id="paralogin"></a>
+
+      <div class="content">
+        <div id="login">
+          <form method="post" action="">
+            <h1>login</h1>
+            <p>
+              <label for="emailLogin"><strong>digite o seu e-mail:</strong></label>
+              <input class='loginInput' id="emailLogin" name="email_login" required="required" type="text" placeholder="emo_sad@hotmail.com" />
+            </p>
+            <p>
+              <label for="senhaLogin"><strong>digite a sua senha:</strong></label>
+              <input class="passwordInput" id="senhaLogin" name="senha_login" required="required" type="password" placeholder="1234" />
+            </p>
+            <p>
+              <input type="checkbox" name="manterLogado" id="manterLogado" value="" />
+              <label for="manterLogado">manter-me logado</label>
+            </p>
+            <p>
+              <input type="submit" class="submitLogin" value="let's go!" />
+            </p>
+            <p class="link"> ainda não tem uma conta? 
+              <a href="cadastro.html"> junte-se e reviva os anos 2000!!!!!</a>
+            </p>
+          </form>
+        </div>    
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+
+</html>
