@@ -11,36 +11,30 @@
   </head>
 
   <body>
-    <div class="container">
-      
+    <div class="container"> 
       <a class="links" id="paralogin"></a>
 
       <div class="content">
         <div id="login">
-          <form method="post" action="">
-            <h1>login</h1>
-            <p>
+          <h1>login</h1>
+          <form>
               <label for="emailLogin"><strong>digite o seu e-mail:</strong></label>
               <input class='loginInput' id="emailLogin" name="email_login" required="required" type="text" placeholder="emo_sad@hotmail.com" />
-            </p>
-            <p>
+
               <label for="senhaLogin"><strong>digite a sua senha:</strong></label>
               <input class="passwordInput" id="senhaLogin" name="senha_login" required="required" type="password" placeholder="1234" />
-            </p>
-            <p>
-              <input type="checkbox" name="manterLogado" id="manterLogado" value="" />
-              <label for="manterLogado">manter-me logado</label>
-            </p>
-            <p>
+              
               <input type="submit" class="submitLogin" value="let's go!" />
-            </p>
-            <p class="link"> ainda não tem uma conta? 
-              <a href="cadastro.html"> junte-se e reviva os anos 2000!!!!!</a>
-            </p>
+
+              <input type="checkbox" name="manterLogado"  id="manterLogado" value="" />
+              <label for="manterLogado">manter-me logado</label>
           </form>
+          <span class="link"> ainda não tem uma conta? 
+            <a href="cadastro.html"> junte-se e reviva os anos 2000!!!!!</a>
+          </span>
         </div>    
     </div>
-    <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script>
   </body>
 
 </html>
