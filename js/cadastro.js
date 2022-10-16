@@ -26,8 +26,6 @@ submitRegister.addEventListener("click", function (e){
   console.clear() //para limpar o console e não ficar acumulando  
 
   registeredLogin()
-
-  if(arr.length > 2) window.location = "./login.html"
 }) 
 /* essa função captura o botão de submit e o 'addEventListener' fica escutando o click do botão, assim que for 
 cliclado ele executa tudo que tem dentro. No caso aí tem a função que fizemos em cima, sempre que clicado ele 
